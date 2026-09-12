@@ -378,3 +378,8 @@ DEBUGGING = 0
 if DEBUGGING:  # error: [redundant-condition-strict]
     print("Doing debugging stuff...")
 ```
+
+## See also
+
+- `truthiness-test-of-callable` warns when a `Callable`-typed value is tested without being called.
+- `truthiness-test-of-iterable` warns when an iterable might be truthy even if it is empty.

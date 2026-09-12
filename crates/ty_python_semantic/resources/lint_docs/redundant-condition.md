@@ -167,3 +167,8 @@ def find_duplicate_coordinates(coordinates: list[tuple[int, int]]):
 
     print(f"Duplicates are {duplicates}")
 ```
+
+## See also
+
+- `truthiness-test-of-callable` warns when a `Callable`-typed value is tested without being called.
+- `truthiness-test-of-iterable` warns when an iterable might be truthy even if it is empty.
